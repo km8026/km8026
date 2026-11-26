@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="MinJun Kim. A free spirit. Product Manager at VAZIL.">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.6" fill="#3d444d"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect x="600" y="0" width="576" height="240" fill="url(#fade)"/>
+    </mask>
+    <clipPath id="frame">
+      <rect x="0.5" y="0.5" width="1199" height="239" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="16" fill="#151b23" stroke="#3d444d"/>
+
+  <g clip-path="url(#frame)">
+    <rect x="600" y="0" width="576" height="240" fill="url(#dots)" mask="url(#fadeMask)"/>
+    <g stroke="#4493f8" stroke-width="1.5" stroke-opacity="0.5" fill="none">
+      <line x1="972" y1="108" x2="876" y2="60"/>
+      <line x1="972" y1="108" x2="1068" y2="84"/>
+      <line x1="972" y1="108" x2="1020" y2="156"/>
+      <line x1="972" y1="108" x2="900" y2="180"/>
+      <line x1="1068" y1="84" x2="1116" y2="132"/>
+    </g>
+    <g fill="#4493f8">
+      <circle cx="972" cy="108" r="7"/>
+      <circle cx="876" cy="60" r="4"/>
+      <circle cx="1068" cy="84" r="4"/>
+      <circle cx="1020" cy="156" r="4"/>
+      <circle cx="900" cy="180" r="4"/>
+      <circle cx="1116" cy="132" r="4"/>
+    </g>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+    <text x="64" y="74" font-size="15" font-weight="600" letter-spacing="2.4" fill="#4493f8">PRODUCT MANAGER  ·  VAZIL</text>
+    <text x="62" y="138" font-size="58" font-weight="700" fill="#f0f6fc">MinJun Kim</text>
+    <text x="64" y="182" font-size="24" fill="#9198a1">A free spirit.</text>
+  </g>
+</svg>
